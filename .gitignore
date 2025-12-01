@@ -1,0 +1,21 @@
+# コンパイル成果物
+/target/
+
+# Cargoのロックファイル（ライブラリの場合は除外、バイナリの場合は含める）
+# Cargo.lock
+
+# バックアップファイル
+**/*.rs.bk
+
+# IDEやエディタ
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# デバッグ用
+*.pdb
